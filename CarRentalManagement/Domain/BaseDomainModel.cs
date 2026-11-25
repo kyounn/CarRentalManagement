@@ -1,0 +1,11 @@
+﻿namespace CarRentalManagement.Domain
+{
+    public abstract class BaseDomainModel
+    {
+        public int Id { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime updatedAt { get; set; }
+        public string? CreatedBy { get; set; }      
+        public string? UpdatedBy { get; set; }
+    }
+}
